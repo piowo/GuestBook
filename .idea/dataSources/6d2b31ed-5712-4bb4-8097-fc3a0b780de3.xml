@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="GuestBook: development">
-  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.48">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.53">
     <root id="1"/>
     <collation id="2" parent="1" name="RTRIM"/>
     <collation id="3" parent="1" name="NOCASE"/>
@@ -1321,60 +1321,60 @@
     </table>
     <column id="486" parent="482" name="id">
       <AutoIncrement>1</AutoIncrement>
-      <DasType>INTEGER|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>INTEGER|0s</StoredType>
     </column>
     <column id="487" parent="482" name="author">
-      <DasType>varchar|0s</DasType>
       <Position>2</Position>
+      <StoredType>varchar|0s</StoredType>
     </column>
     <column id="488" parent="482" name="body">
-      <DasType>text|0s</DasType>
       <Position>3</Position>
+      <StoredType>text|0s</StoredType>
     </column>
     <column id="489" parent="482" name="created_at">
-      <DasType>datetime|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
+      <StoredType>datetime|0s</StoredType>
     </column>
     <column id="490" parent="482" name="updated_at">
-      <DasType>datetime|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
+      <StoredType>datetime|0s</StoredType>
     </column>
     <key id="491" parent="482">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <column id="492" parent="483" name="version">
-      <DasType>varchar|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>varchar|0s</StoredType>
     </column>
     <index id="493" parent="483" name="unique_schema_migrations">
       <ColNames>version</ColNames>
       <Unique>1</Unique>
     </index>
     <column id="494" parent="484" name="type">
-      <DasType>TEXT|0s</DasType>
       <Position>1</Position>
+      <StoredType>TEXT|0s</StoredType>
     </column>
     <column id="495" parent="484" name="name">
-      <DasType>TEXT|0s</DasType>
       <Position>2</Position>
+      <StoredType>TEXT|0s</StoredType>
     </column>
     <column id="496" parent="484" name="tbl_name">
-      <DasType>TEXT|0s</DasType>
       <Position>3</Position>
+      <StoredType>TEXT|0s</StoredType>
     </column>
     <column id="497" parent="484" name="rootpage">
-      <DasType>INT|0s</DasType>
       <Position>4</Position>
+      <StoredType>INT|0s</StoredType>
     </column>
     <column id="498" parent="484" name="sql">
-      <DasType>TEXT|0s</DasType>
       <Position>5</Position>
+      <StoredType>TEXT|0s</StoredType>
     </column>
     <column id="499" parent="485" name="name">
       <Position>1</Position>
