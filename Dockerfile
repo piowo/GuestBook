@@ -14,7 +14,7 @@ WORKDIR /app
 # Kopiujemy pliki aplikacji
 COPY . .
 
-# Instalujemy Bundlera w wersji kompatybilnej z Rails 4.2.5
+# Instalujemy Bundlera w wersji kompatybilnej z Rails 4.2.11.3
 RUN gem install bundler -v 1.17.3
 
 # Instalujemy zależności projektu

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45816175-228b-4072-af30-d9a9d4afd96b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GuestBook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GuestBook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d2b31ed-5712-4bb4-8097-fc3a0b780de3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d2b31ed-5712-4bb4-8097-fc3a0b780de3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="45816175-228b-4072-af30-d9a9d4afd96b" name="Changes" comment="Dockerfile changes">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,12 +172,25 @@
       <workItem from="1678547739264" duration="110000" />
       <workItem from="1683970653742" duration="2903000" />
       <workItem from="1686689315704" duration="70000" />
-      <workItem from="1740677979961" duration="1334000" />
+      <workItem from="1740677979961" duration="1473000" />
     </task>
+    <task id="LOCAL-00001" summary="Dockerfile changes">
+      <option name="closed" value="true" />
+      <created>1740680313183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740680313183</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dockerfile changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GuestBook@GuestBook.rcov" NAME="GuestBook Coverage Results" MODIFIED="1686689343457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="GuestBook" />
