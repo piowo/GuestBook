@@ -27,4 +27,4 @@ EXPOSE 3000
 
 # Uruchamiamy serwer Rails
 # CMD ["sh", "-c", "bin/rake db:migrate && bundle exec rails server -b 127.0.0.1"]
-CMD ["sh", "-c", "bundle exec rails server -b 127.0.0.1"]
+CMD ["sh", "-c", "bundle exec rails server -b 0.0.0.0"]
